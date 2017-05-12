@@ -953,12 +953,6 @@ esdc<-function(n,m,A,choices.A,B,choices.B,iteration){
 
 
 type<-function(A,B,choices.A,choices.B){
-  install.packages("lpSolve",repos="https://cloud.r-project.org/",dependencies=TRUE)
-  if (requireNamespace("lpSolve", quietly = TRUE)) {
-  lpSolve::lp
-  }
-  else{
-  }
   rownames(A)<-choices.A
   rownames(B)<-rownames(A)
   colnames(B)<-choices.B

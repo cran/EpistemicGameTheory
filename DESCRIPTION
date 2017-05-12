@@ -1,7 +1,7 @@
 Package: EpistemicGameTheory
 Type: Package
 Title: Constructing an Epistemic Model for the Games with Two Players
-Version: 0.1.0
+Version: 0.1.2
 Author: Bilge Baser
 Maintainer: Bilge Baser <bilge.baser@msgsu.edu.tr>
 Imports: stats,utils
@@ -12,6 +12,6 @@ LazyData: TRUE
 RoxygenNote: 6.0.1
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2017-05-10 07:15:00 UTC; lenovo
+Packaged: 2017-05-12 10:08:01 UTC; lenovo
 Repository: CRAN
-Date/Publication: 2017-05-10 11:34:49 UTC
+Date/Publication: 2017-05-12 11:13:59 UTC
